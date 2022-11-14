@@ -222,6 +222,29 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
+
+
+### CORRECT STEPS-
+```bash
+$ git clone https://github.com/nishitanand/nishitanand.github.io.git
+$ cd nishitanand.github.io
+$ rbenv local 3.1.2
+$ bundle install
+$ bundle exec jekyll serve
+```
+rbenv local 3.1.2 is for defining which Ruby version to use in the current directory
+
+
+### AFTER MAKING CHANGES-
+```bash
+$ git add .
+$ git status
+$ git commit -m "Updates"
+$ git status
+$ git push origin main
+```
+
+
 Now, feel free to customize the theme however you like (don't forget to change the name!).
 After you are done, **commit** your final changes.
 
