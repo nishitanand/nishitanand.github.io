@@ -7,7 +7,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
@@ -17,6 +17,8 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+My name is Nishit Anand. I am currently a Research Assistant at the Vision and Graphics Lab, Indian Institute of Technology Delhi (IIT Delhi) under Prof. Chetan Arora. I am working on a Govt. of India funded project, where I am developing State-of-The-Art Vision Transformer-based Optical Character Recognition models for all 22 official Indian languages, covering both Printed and Scene-Text modalities. I am also doing research on Active Learning in OCR. Previously I worked at the Autonomous Networked Systems Lab (Vision Lab) at Indraprastha Institute of Information Technology Delhi (IIIT-Delhi) under Prof. Saket Anand. At IIITD, I worked on the ALIVE Project (Autonomous Last mILe VEhicle), an autonomous driving project funded by the Ministry of Electronics and Information Technology, Govt. of India. I led the Driver Status Monitoring (DSM) module of the ALIVE project, where I  created a Facial Landmark Detection ML model for predicting drowsiness and attentiveness of an autonomous vehicle driver. I completed my B.Tech (Honours) in Computer Science from Jaypee Institute of Information Technology Noida in 2022. I graduated in the top 5 percentile of the CS Department and scored the highest in all courses in my final year.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
