@@ -8,17 +8,17 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
----
-<!---
+
+
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
--->
----
+
+
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 My name is Nishit Anand. I am currently a Research Assistant at the [Vision and Graphics Lab](https://vision-iitd.github.io/), Indian Institute of Technology Delhi (IIT Delhi) under [Prof. Chetan Arora](https://www.cse.iitd.ac.in/~chetan/). I am working on a Govt. of India funded project, where I am developing State-of-The-Art Vision Transformer-based Optical Character Recognition models for all 22 official Indian languages, covering both Printed and Scene-Text modalities. I am also doing research on Active Learning in OCR. 
