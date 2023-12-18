@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-12
+date: 2023-12-09 15:59:00-0400
 inline: true
 ---
 
-Paper submitted to ICPRAI 2024
+Paper submitted to IJCAI 2024
