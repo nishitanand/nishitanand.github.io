@@ -14,7 +14,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-My name is Nishit Anand. I am currently a Research Assistant at the [Vision and Graphics Lab](https://vision-iitd.github.io/), Indian Institute of Technology Delhi (IIT Delhi) under [Prof. Chetan Arora](https://www.cse.iitd.ac.in/~chetan/). I am working on a Govt. of India funded project, where I am developing State-of-The-Art Vision Transformer-based Optical Character Recognition models for all 22 official Indian languages, covering both Printed and Scene-Text modalities. I am also doing research on Active Learning in OCR. 
+My name is Nishit Anand. I am a first-year MS CS student at the [University of Maryland, College Park](https://www.cs.umd.edu/). I do research on Computer Vision and LLMs, particularly Foundation Multimodal Models under the guidance of [Prof. Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha) in the [GAMMA Lab](https://gamma.umd.edu/) at UMD.
+
+Before this, I worked in the industry as a ML Scientist at [Radien](https://radien.app/), a Seattle-based funded by the Paul Allen Institiute for AI (AI2). There I helped built our ML product which helps front-end teams simplify their codebases using AI. There I worked on Vision-Language models, Code LLMs and Image Similarity for our product.
+
+
+Previously, I worked as a Research Assistant at the [Vision and Graphics Lab](https://vision-iitd.github.io/), Indian Institute of Technology Delhi (IIT Delhi) under [Prof. Chetan Arora](https://www.cse.iitd.ac.in/~chetan/). I am working on a Govt. of India funded project, where I am developing State-of-The-Art Vision Transformer-based Optical Character Recognition models for all 22 official Indian languages, covering both Printed and Scene-Text modalities. I am also doing research on Active Learning in OCR. 
 
 Previously I worked at the Autonomous Networked Systems Lab (Vision Lab) at Indraprastha Institute of Information Technology Delhi (IIIT-Delhi) under [Prof. Saket Anand](https://www.iiitd.ac.in/anands). At IIITD, I worked on the [ALIVE Project](https://sites.google.com/iiitd.ac.in/iiitd-alive/home) (Autonomous Last mILe VEhicle), an autonomous driving project funded by the Ministry of Electronics and Information Technology, Govt. of India. I led the Driver Status Monitoring (DSM) module of the ALIVE project, where I  created a Facial Landmark Detection ML model for predicting drowsiness and attentiveness of an autonomous vehicle driver. 
 
