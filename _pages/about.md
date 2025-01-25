@@ -27,6 +27,9 @@ Before that, I worked at the Autonomous Networked Systems Lab (Vision Lab) at In
 
 I completed my B.Tech (Honours) in Computer Science from Jaypee Institute of Information Technology Noida ([JIIT Noida](https://www.jiit.ac.in/)) in 2022. I graduated in the top 5 percentile of the CS Department and scored the highest in all courses in my final year.
 
+CV: [Link](https://drive.google.com/file/d/1smmuLIqhT6LNsrDLECqP6akAVWGHrkr6/view)
+Google Scholar: [Link](https://scholar.google.com/citations?hl=en&user=6bZx8DYAAAAJ&view_op=list_works&sortby=pubdate)
+
 <!---
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
