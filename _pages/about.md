@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-My name is Nishit Anand. I am a first-year MS CS student at the [University of Maryland, College Park](https://www.cs.umd.edu/). I do research on Computer Vision and LLMs, particularly Foundation Multimodal Models under the guidance of [Prof. Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha) in the [GAMMA Lab](https://gamma.umd.edu/) at UMD.
+My name is Nishit Anand. I am a first-year MS CS student at the [University of Maryland, College Park](https://www.cs.umd.edu/). I do research on Computer Vision, Audio and Multimodal LLMs, particularly Foundation Multimodal Models under the guidance of [Prof. Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha) in the [GAMMA Lab](https://gamma.umd.edu/) at UMD.
 
 Before this, I worked in the industry as a ML Scientist at [Radien](https://radien.app/), a Seattle-based AI startup funded by the Paul Allen Institiute for AI (AI2). I was the first ML hire in the team and built the ML pipeline of our product which helps front-end teams simplify their codebases using AI. There I worked on Vision-Language models, Code LLMs and on Image and Code Similarity for our product.
 
