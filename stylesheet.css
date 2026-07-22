@@ -136,6 +136,8 @@ span.highlight {
 
 tr.highlight td {
   background-color: #ffffd0;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
 }
 
 .colored-box {
