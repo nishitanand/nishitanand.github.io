@@ -172,7 +172,7 @@
         Dinesh Manocha*,
         Ramani Duraiswami*
         <br>
-        <em>ICLR 2026</em>, ReALM-GEN Workshop on Diffusion Models
+        <em>ICLR 2026</em>, ReALM-GEN Workshop on Diffusion Models <a class="dl-badge" href="https://huggingface.co/datasets/nishitanand/image-relighting-diffusion-data" data-repos="datasets/nishitanand/image-relighting-diffusion-data">9.6K Downloads</a>
         <br>
         <a href="https://arxiv.org/abs/2604.24877">arXiv</a>
         &nbsp;/&nbsp;
@@ -228,7 +228,7 @@
         Kaousheik Jayakumar,
         Lasha Koroshinadze et al.
         <br>
-        <em>NeurIPS</em>, 2026
+        <em>NeurIPS</em>, 2026 <a class="dl-badge" href="https://huggingface.co/datasets/nvidia/MMOU" data-repos="datasets/nvidia/MMOU">7.4K Downloads</a>
         <br>
         <a href="https://arxiv.org/abs/2603.14145">arXiv</a>
         &nbsp;/&nbsp;
@@ -255,7 +255,7 @@
         <strong>Nishit Anand</strong>,
         Zhifeng Kong et al.
         <br>
-        <em>arXiv</em>, 2026
+        <em>arXiv</em>, 2026 <a class="dl-badge" href="https://huggingface.co/nvidia/audio-flamingo-next-hf" data-repos="models/nvidia/audio-flamingo-next-hf,models/nvidia/audio-flamingo-next-think-hf,models/nvidia/audio-flamingo-next-captioner-hf">109K Downloads</a>
         <br>
         <a href="https://arxiv.org/abs/2604.10905">arXiv</a>
         &nbsp;/&nbsp;
@@ -392,7 +392,7 @@
         Hyeonggon Ryu,
         Lichang Chen et al.
         <br>
-        <em>AAAI</em>, 2026
+        <em>AAAI</em>, 2026 <a class="dl-badge" href="https://huggingface.co/datasets/gamma-lab-umd/MMAU-Pro" data-repos="datasets/gamma-lab-umd/MMAU-Pro">29K Downloads</a>
         <br>
         <a href="https://arxiv.org/abs/2508.13992">arXiv</a>
         &nbsp;/&nbsp;
@@ -657,5 +657,25 @@
         </td>
       </tr>
     </table>
+    <script>
+    (function () {
+      function fmt(n) {
+        if (n >= 10000) return Math.floor(n / 1000) + "K";
+        if (n >= 1000)  return (Math.floor(n / 100) / 10) + "K";
+        return String(n);
+      }
+      document.querySelectorAll(".dl-badge[data-repos]").forEach(function (badge) {
+        var repos = badge.getAttribute("data-repos").split(",");
+        Promise.all(repos.map(function (r) {
+          return fetch("https://huggingface.co/api/" + r.trim() + "?expand=downloadsAllTime")
+            .then(function (res) { return res.json(); })
+            .then(function (d) { return d.downloadsAllTime || 0; });
+        })).then(function (counts) {
+          var total = counts.reduce(function (a, b) { return a + b; }, 0);
+          if (total > 0) badge.textContent = fmt(total) + " Downloads";
+        }).catch(function () { /* keep fallback text */ });
+      });
+    })();
+    </script>
   </body>
 </html>

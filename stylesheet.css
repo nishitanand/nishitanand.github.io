@@ -146,3 +146,20 @@ tr.highlight td {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Live Hugging Face download badges (values updated by the script at the end of index.html) */
+.dl-badge {
+  display: inline-block;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  background: #e05d44;
+  padding: 3px 7px;
+  border-radius: 3px;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-left: 6px;
+}
+a.dl-badge:hover, a.dl-badge:focus { opacity: 0.85; color: #fff; }
