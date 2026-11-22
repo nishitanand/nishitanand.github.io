@@ -163,3 +163,8 @@ tr.highlight td {
   margin-left: 6px;
 }
 a.dl-badge:hover, a.dl-badge:focus { opacity: 0.85; color: #fff; }
+
+/* Slightly more space between the intro paragraphs */
+.bio p:not(.name) {
+  margin: 17px 0;
+}
